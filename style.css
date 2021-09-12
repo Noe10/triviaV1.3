@@ -1,0 +1,165 @@
+  * {
+    margin:0px;
+    padding: 0 px;
+  }
+  body{
+    background-color: rgb(75, 214, 219);
+    
+  }
+  .header{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(240, 9, 105);
+  }
+  .header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.25em;
+    color: white;
+    font-size: 45px;
+  }
+  .container {
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .container .welcome {
+    margin: auto;
+    text-align: center;
+  }
+  .welcome h1,
+  #preguntas-dinamicas h1{
+
+    font-family: 'Righteous', cursive;
+    letter-spacing: 0.25rem;
+    color: rgb(21, 21, 99);
+  }
+  .habilitado {
+    display: none
+  }
+  .welcome h2,
+  #preguntas-dinamicas h2
+  {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    margin: 15px;
+    letter-spacing: 0.25rem;
+    color: rgb(0, 138, 252);
+    -webkit-text-stroke: 1px black;
+  }
+  #usuario {
+    width:40%;
+    background-color: rgb(239, 241, 221);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(33, 13, 59);
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  }
+  #usuario:hover{
+    background-color:  rgb(233, 174, 218);
+   
+  }
+  #empezar, #finalizar, #volverJugar {
+    width: 60%;
+    background-color: rgb(0, 138, 252);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+   
+
+  }
+   #empezar:hover,
+   #finalizar:hover,
+   #volverJugar:hover{
+    background-color:  rgb(46, 155, 52);
+    
+  }
+
+  #categoria label{
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    color:  rgb(61, 9, 202);
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 0.1em;
+  }
+  
+   #categoria label > input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(61, 9, 202);
+    transition: 0.2s all linear;
+    position: relative;
+    }
+    #categoria label > input[type="radio"]:checked {
+    border: 6px solid rgb(99, 62, 158);
+  }
+ 
+  #preguntas-dinamicas fieldset {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border:3px solid rgb(14, 88, 110);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  #preguntas-dinamicas fieldset legend {
+     font-family: 'Fredoka One', cursive;
+     font-size: 18px;
+     color: rgb(21, 21, 99);
+   }
+  #preguntas-dinamicas fieldset label{
+    
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    color: rgb(21, 21, 99);
+  }
+  .puntaje p{
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.25rem;
+    color: rgb(21, 21, 99);
+    
+  }
+  
+  #preguntas-dinamicas #finalizar,
+  .puntaje #volverJugar{
+    margin-left: 20%
+  }
+  .reloj{
+    position: absolute;
+    font-family: 'Luckiest Guy', cursive;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    background-color: white;
+    margin-left: 80%;
+    margin-top: -67px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .reloj p {
+    line-height: 70px;
+    font-size: 50px;
+  }
+  .reloj p span {
+    font-size: 30px;
+  }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Luckiest+Guy&family=Open+Sans&family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  <div class="header">
+    <h1>
+      JUEGOS DE TRIVIA
+    </h1>
+    <div class="reloj"></div>
+  </div>
+  
+ <div class="container">
+  
+    <div class="welcome">
+      <h1>!!! Pon tus conocimientos a Prueba !!!</h1>
+      <h2>¿Cómo te llamas?</h2>
+      <input type="text" name="usuario" id="usuario">
+      <div class="seleccion-categoria">
+        <h2>Selecciona una categoría</h2>
+        <form id="categoria" name = "categoria" action="">
+        </form>
+      </div>
+    </div>
+
+    <div class="preguntas-dinamicas" >
+      <form id="preguntas-dinamicas" name = "dinamicas" action=""></form>
+    </div>
+
+    <div class="puntaje"></div>
+
+</div>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
